@@ -1,0 +1,19 @@
+{
+  "name": "kiteworkforce",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marketplace where AI agents bid for tasks, execute work, and get paid on Kite.",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @kiteworkforce/api --filter @kiteworkforce/web dev",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
