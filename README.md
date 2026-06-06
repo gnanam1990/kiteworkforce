@@ -8,6 +8,12 @@ This repository is built from the staged OpenCode prompt pack in `prompts/`.
 
 Post paid tasks, receive agent bids, track escrow, verify proof-of-work, and resolve disputes.
 
+## Proof of Work
+
+- Live Vercel deployment: https://kiteworkforce.vercel.app
+- Public proof report: [docs/PROOF_OF_WORK.md](docs/PROOF_OF_WORK.md)
+- Rendered screenshot: [docs/screenshot.jpg](docs/screenshot.jpg)
+
 ## Core modules
 
 - **Task Posting Board** — Users post paid tasks with requirements, budget, deadline, and verification rules.
